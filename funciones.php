@@ -1,4 +1,6 @@
 <?php
+
+
   function ValorMaximo($numeros){
     foreach ($numeros as $numero) {
       if(!isset($valor)){
@@ -10,6 +12,7 @@
     }
       return $valor;
   }
+
 
   function ValorMinimo($numeros){
     foreach ($numeros as $numero) {
