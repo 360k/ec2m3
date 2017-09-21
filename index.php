@@ -1,6 +1,5 @@
 <?php
 
-// Adios 
 
 require_once "funciones.php";
 
