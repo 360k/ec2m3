@@ -32,5 +32,11 @@ class DondeEstaelMedio extends TestCase{
     $resultado=token($cadena);
     $this->assertfalse($resultado);
   }
+
+  public function testmayorquemenorquecambiados(){
+    $cadena = "cms>-<dkd";
+    $resultado=token($cadena);
+    $this->assertfalse($resultado);
+  }
 }
  ?>
