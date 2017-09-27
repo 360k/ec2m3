@@ -1,30 +1,46 @@
 <?php
+
 /**
-*Libreria de funciones.
+* funciones
 *
-*@author anónimo <anonimo@server.com>
-*@license GPl
+* @author 360k <360k.cat@gmail.com>
+* @license AGPL
 */
 namespace Lib\strings;
 
-
 /**
-*Secuencia de caracteres "<->" esta en medio.
 *
-*Funcion que recibe como argumento un string $cadena que busca "<->" si esta en medio del string.
-*Si la secuencia esta en medio devuelve TRUE y sino FALSE.
+*Cadena "<->" en medio en un cojunto de caracteres.
 *
-*@example de secuencia en medio del string.("albert<->albert")
+*Recivimos una $cadena, y tenemos que comprobar si la siguiente serie "<->",
+*aparece en medio. Se considerará que está en medio si el número de caracteres que hay
+*antes y después difieren como mucho en una unidad. devolverenos TRUE de lo contrario FALSE.
 *
-*@param string $cadena donde recibimos el string.
+*@example Secuencia ('asd<->asd').
 *
-*@return  devuelve un TRUE secuencia esta en medio o FALSE si no se encuentra en medio.
+*
+*Se comprueba si <-> estan en medio.
+*
+*Si es que no se devolvera False
+*
+*De lo contrario se comprobara si a los lados se encuentra <>
+*
+*Si alguno de estos dos elementos no estuviera en la posicion correcta se devolveria False
+*
+*si no devolvera TRUE.
+*
+*Tambien se considera que esta en medio cuando sea una posicion menos y mas
+*por la posibilidad de que el medio pudiera ser impar.
+*
+*@param string $cadena donde recibimos la cadena string.
+*
+*@return boolean devuelve un True si es correcto y False si no se comple la condición.
 *
 */
-
 function flechaMedio($cadena){
 
-    //TODO para comentar lo que falta hacer
+// TODO Resto documentar.
+
 
     return false;
 }
