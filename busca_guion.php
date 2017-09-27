@@ -1,5 +1,5 @@
 <?php
-require_once "funcion_guion.php";
+require_once "fun_guion.php";
 use PHPUnit\Framework\TestCase;
 class DondeEstaelMedio extends TestCase{
 
@@ -57,6 +57,6 @@ class DondeEstaelMedio extends TestCase{
     $resultado=token($cadena);
     $this->assertfalse($resultado);
   }
-  
+
 }
  ?>
