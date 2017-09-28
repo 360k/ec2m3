@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project title="API Documentation" version="2.8.5">
   <partials/>
-  <file path="arrays.php" generated-path="arrays.html" hash="fce38957d6501f09a0ca727b0d0e0ba1" package="Default">
+  <file path="arrays.php" generated-path="arrays.html" hash="c50e9073ccb204d57ac9f3fc570aa245" package="Default">
     <docblock line="0">
       <description>funciones</description>
       <long-description></long-description>
@@ -77,9 +77,9 @@
     <markers>
       <todo line="35">Resto documentar.</todo>
       <todo line="62">Resto documentar.</todo>
-      <todo line="90">Resto documentar.</todo>
+      <todo line="92">Resto documentar.</todo>
     </markers>
-    <source>eJzlVc1uEzEQvkfKO8yBQ1tt/tMgQUVbqYhLURH0Bhwc7yRx8dqL145SIZ6KR+DFmLGdNKsggVDFpVG02ezOfD8zX7Jn5/Wq7na6ncHJSbeT37AIRiprsEnfL0TwK+tgMht+gTM+9qXwF8tKKN2XtnqVy7SSaBqEyzfvrndgg27HiAqbWkiEazX/JJwT983LFmkk/PnDwNeAMA+NFIAa1kITayU2qrJQovGOPyAYiBh8ThfR2QYcSjVXpe1nKbgRVa0x+8mvEbxHaZ1DhxX1EMNlxCELtbNzYUoLMgjNwJoKTKgiOIvSNpbRUAxg7K3EvXXMd4tGIffSLRlIURTfqKVhuTrDcCVZOfo4KabFrBgVs9OiN+Gz4efjF1S4tnqNTsDstO2BZH9Q4G1JShaBKgzrS/AGl8KrtQWauicN1N4SwRrjmDT52Skg2t5oWvSe98aTNndvkrlr4UQFjXfKLOFZGjfZLq0htDTsPMJ4L3c59MGZbRvBBiRc2M0gzWw73rhenqXZx6G8cBo85Y9Xf5TIj79xXniJgwHc3lzd0CobT96sJGRyy5tIBVnEkBL2na/9bcyUeVIx2636acYsJW0/a8ocZO0f0vaHrGWB3vq0f9TIgHGpu8DRnyXe/ZeMEeJ+xz2sCCMYQYvm7UoFytDGvCoF3bRbZXBFyjeq8cpxJKTlkSg2SIDZ4p65RBs5MQXbPzCI7BNe3yH53HKM4DDC04MQjx+eWe32McT8UfxGfDhI4KMEcG1V+bv4Ues2dMm4WVhX0Q9K79lub7mdxXTrLaf4MTLZ7ZzTI/oXdcp22Q==</source>
+    <source>eJzllc9uEzEQxu+R8g5z4NBWm/9pkKCirVTEpagIegMOjneSuHjtxWtHqRBPxSPwYszYTppVkECAuDSJNpu155tvZn6bPTuvV3W30+0MTk66nfyBRTBSWYNN+n0hgl9ZB5PZ8BOc8bEvhb9YVkLpvrTVi7xNK4mmQbh89eZ6JzbodoyosKmFRLhW8w/COXHfPG8ljQm/fzPwOSDMQyMFoIa10JS1EhtVWSjReMdfEAxEDT6ni+hsAw6lmqvS9rMV3Iiq1pjrya8RvEVpnUOHFcVQhsuoQyXUzs6FKS3IIDQLa9pgQhXF2ZS2cRs1xQDG2ErcW8f5btEo5FhakoEcRfONWhq2q7MM76RSjt5PimkxK0bF7LToTfhs+PH4GW1cW71GJ2B22q6BbL9T4G1JThaBdhj2l+QNLoVXawvUdU8eKLxlgj3GNmmqZ+eA0vZG06L3tDeetHP3Jjl3LZyooPFOmSU8Se2msktrSC01O7cwruUohz44sw0j2YCkC7sepJ5t2xvHy700+zrEC9PgiT8e/VFKfvyFeeEhDgZwe3N1Q6NsPNVmJSlTtTyJtCGbGBJhX/na72KmzKPCbDfqx4lZIm2fNWUOWPsD2n7BWjborU/zR40sGIe6A47+LPHuvzBGivsR97AijWAEDZqnKxUoQxPzqhS0aLfO4Iqcb1TjlWMkpOWWKC6QBHOJe8WltDEnJrD9QwaR64SXd0h1bnOM4BDh6QHE44dnVjt8DJE/wm/EhwMC/wmAa6vKn+FHoVvoUuFmYV1FN5TeK7s95TaLaek1U9xi8i+4TO9zelT/AP4ldzU=</source>
   </file>
   <file path="strings.php" generated-path="strings.html" hash="615f0104fd93ca1757859f1b85245583" package="Default">
     <docblock line="0">
