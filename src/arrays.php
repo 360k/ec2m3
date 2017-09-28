@@ -37,6 +37,18 @@ function max($array){
     return 0;
 }
 
+/**
+*
+*
+* funciones
+*
+*@author 360k <360k.cat@gmail.com>
+*
+*@license AGPL
+*
+*
+*/
+namespace Lib\arrays;
 
 /**
 *
@@ -58,41 +70,10 @@ function max($array){
 */
 
 function min($array){
-
-      // TODO Resto documentar.
-
     return 0;
 }
-
-/**
-*
-*función que busca el numero total de elemento en un array espejo.
-*
-*@example
-*
-*        1 Recorreremos el Array comprobando cual de los numeros que lo componen
-*comprobando y hay una secuenci invertida y o espejo. De existir se contaria el
-*numero de elementos que compoenen esta secuencia.
-*
-* Ejemplo espejo1 ([3,4,6,1,65,-3,6,4,10]): devolvera 2
-*
-*
-* Ejemplo espejo2 ([-3,14,1,14,-23]): devolvera 3
-*
-*@param string $array es donde recibimos el array
-*
-*@return void devuelve el numero de valores que conforman la secuencia espejo.
-*
-*/
 
 function espejoMayor($array){
-
-      // TODO Resto documentar.
-
     return 0;
 }
-
-
-
-
 ?>
