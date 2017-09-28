@@ -74,6 +74,10 @@ function min($array){
 }
 
 function espejoMayor($array){
+
+
+      // TODO Resto documentar.
+
     return 0;
 }
 ?>
