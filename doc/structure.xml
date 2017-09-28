@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project title="API Documentation" version="2.8.5">
   <partials/>
-  <file path="arrays.php" generated-path="arrays.html" hash="fa97e152cb18bd672ed6f21cdbd44068" package="Default">
+  <file path="arrays.php" generated-path="arrays.html" hash="24b13b31f26c967f7256abf42704cdf1" package="Default">
     <docblock line="0">
       <description>funciones</description>
       <long-description></long-description>
@@ -13,8 +13,7 @@
       <name>max</name>
       <full_name>\Lib\arrays\max()</full_name>
       <docblock line="33">
-        <description>función que busque el máximo de un array de enteros recibido como
-argumento.</description>
+        <description>función que busca el valor maximo dentro de un array de enteros recibido.</description>
         <long-description></long-description>
         <tag name="package" line="33" description="Default"/>
         <tag name="example" line="33" description="Recorreremos el Array comprobando cual de los numeros que lo componen es el mayor.&#10;Teniendo en cuenta el signo del numero.&#10;max([3,4,6,1,65,-3,6,10]): devolvera 65"/>
@@ -32,27 +31,35 @@ argumento.</description>
         <type>string</type>
       </argument>
     </function>
-    <function namespace="Lib\arrays" line="38" package="Default">
+    <function namespace="Lib\arrays" line="72" package="Default">
       <name>min</name>
       <full_name>\Lib\arrays\min()</full_name>
-      <docblock line="38">
-        <description></description>
+      <docblock line="72">
+        <description>función que busca el valor minimo dentro de un array de enteros recibido.</description>
         <long-description></long-description>
-        <tag name="package" line="38" description="Default"/>
+        <tag name="package" line="72" description="Default"/>
+        <tag name="example" line="72" description="Recorreremos el Array comprobando cual de los numeros que lo componen es el mayor.&#10;Teniendo en cuenta el signo del numero.&#10;max([3,4,6,1,65,-3,6,10]): devolvera -3"/>
+        <tag name="example" line="72" description="Si todos fueran de signo negativo se tendra en cuenta el mayo de ellos.&#10;max([-3,-14,-7-23]): devolvera -3"/>
+        <tag name="param" line="72" description="&lt;p&gt;es donde recibimos el array&lt;/p&gt;" type="string" variable="$array">
+          <type>string</type>
+        </tag>
+        <tag name="return" line="72" description="devuelve el numero mayor de los valores en el array" type="string">
+          <type>string</type>
+        </tag>
       </docblock>
       <argument line="0" by_reference="false">
         <name>$array</name>
         <default></default>
-        <type/>
+        <type>string</type>
       </argument>
     </function>
-    <function namespace="Lib\arrays" line="41" package="Default">
+    <function namespace="Lib\arrays" line="75" package="Default">
       <name>espejoMayor</name>
       <full_name>\Lib\arrays\espejoMayor()</full_name>
-      <docblock line="41">
+      <docblock line="75">
         <description></description>
         <long-description></long-description>
-        <tag name="package" line="41" description="Default"/>
+        <tag name="package" line="75" description="Default"/>
       </docblock>
       <argument line="0" by_reference="false">
         <name>$array</name>
@@ -60,13 +67,14 @@ argumento.</description>
         <type/>
       </argument>
     </function>
+    <markers>
+      <todo line="35">Resto documentar.</todo>
+    </markers>
     <parse_markers>
-      <error line="38" code="PPC:ERR-50015">Argument $array is missing from the Docblock of min</error>
-      <error line="38" code="PPC:ERR-50011">No summary for function \Lib\arrays\min()</error>
-      <error line="41" code="PPC:ERR-50015">Argument $array is missing from the Docblock of espejoMayor</error>
-      <error line="41" code="PPC:ERR-50011">No summary for function \Lib\arrays\espejoMayor()</error>
+      <error line="75" code="PPC:ERR-50015">Argument $array is missing from the Docblock of espejoMayor</error>
+      <error line="75" code="PPC:ERR-50011">No summary for function \Lib\arrays\espejoMayor()</error>
     </parse_markers>
-    <source>eJx1Us1u1DAQvvsp5sCBrpL9Ie0i0ao/Jy5FQsANOMxmp6nBHgfHXm2FeBiegUfoizHjZFftoYmUOJrvz198cdXf98YsZjNTbrjL3NrANOjXNeZ0HyI06+VPuNDnvMV03Xm0bt4Gf1lAzrbEA8HN+4+3o8rCMHoaemwJbu3mG8aID8P50aeYPP5j+JUJNnnQFznwj3/31gfYEmSGQtI1caIYBojU2o3dBhDnYGYYu+xlFuaSgfboe0dlC9O1gk/Uhhgpkhe26N8URWH3MWyQVSmjUwsnABY1tdEwrpj00gMDFa7HhxDF6QuxJaXKpM1ijzodbMea200qAvS4f/21qU6rdbWq1mdV3ehq+f3kneB2we0oIqzPSoNTeon82UIKW0lxl2XOmm3UZuow2V0AKTpJACE/S6D5SllO9nKwF896dVrVb+s3zXPjuinGPUb0MKRouYNXY+Oy321gkRr7nrors8KJlHLkA0kkM4kmHPc+VnVodYcuRK2Qn6gsjJ6AJOcMNOdofPLb6G+b5Jfn5o8xT3CWX8YdUXLm6Ef4oAFeRl9dmv8lwPYG</source>
+    <source>eJzlUk1rFEEQvS/sf6iDhyTM7IeTrKDBJCB4iURMbtFDb09l09pdPfZ0Lwnir/In+Mes6ukMuwiehQzDfFa99+rVOz3r7rvpZDqZHx1NJ+WEu0TaeMJ+eD9XKd77AM1q8Q1O5TrTKp5vnDJ2pr17W8qs0Ug9wsX7j5cj2Hw6IeWw75RGuDTrzyoE9di/2SPNhL9/EXxPCOvUawVoYassszr1YJyHFikGuUEiyBjyzB8x+B4CarM2rZ8VKfigXGexzFOOJXxC7UPAgI57mOEi4/AIXfBrRa0HnZQVYMsFlFwGF1HW5zI2hQBzr1OPPgjfDZJB6eVfOrGiLL43GxK5tsBIJY9ycNtUx9WqWlark6pu5Gnx5fA1F2693WJQsDrZn4FlXxuIvmUld4krSPQN8IQbFc3WA7seWQO374kQjdkmy/OMCpi2Xh5X9av6ZbPPXTeFu1NBOehjMLSBF4PdPHbridEGs4uF+V/pChhToKc2hk3IuDB6MHj2ZG9er3hJuzicF0lD5PzJ6g8G8sMfkhdZ4nwON1fvrniVfeTZvGZknlY2MRQUEQtO2M//PNmGnlWyx3Q9z2QPkdmNt6GdeP+d3bGQM4Zf/Qeh+GfDGef1D294yqc=</source>
   </file>
   <file path="strings.php" generated-path="strings.html" hash="615f0104fd93ca1757859f1b85245583" package="Default">
     <docblock line="0">
