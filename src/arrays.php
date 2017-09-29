@@ -37,6 +37,18 @@ function max($array){
     return 0;
 }
 
+/**
+*
+*
+* funciones
+*
+*@author 360k <360k.cat@gmail.com>
+*
+*@license AGPL
+*
+*
+*/
+namespace Lib\arrays;
 
 /**
 *
@@ -58,11 +70,9 @@ function max($array){
 */
 
 function min($array){
-
-      // TODO Resto documentar.
-
     return 0;
 }
+
 
 /**
 *
@@ -85,16 +95,12 @@ function min($array){
 *
 */
 
-function espejoMayor($array){
 
+function espejoMayor($array){
 
 
       // TODO Resto documentar.
 
     return 0;
 }
-
-
-
-
 ?>

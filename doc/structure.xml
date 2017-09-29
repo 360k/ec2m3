@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project title="API Documentation" version="2.8.5">
   <partials/>
-  <file path="arrays.php" generated-path="arrays.html" hash="c50e9073ccb204d57ac9f3fc570aa245" package="Default">
+  <file path="arrays.php" generated-path="arrays.html" hash="91016e4a141f896d041e0ec371c66bf0" package="Default">
     <docblock line="0">
       <description>funciones</description>
       <long-description></long-description>
@@ -31,19 +31,19 @@
         <type>string</type>
       </argument>
     </function>
-    <function namespace="Lib\arrays" line="60" package="Default">
+    <function namespace="Lib\arrays" line="72" package="Default">
       <name>min</name>
       <full_name>\Lib\arrays\min()</full_name>
-      <docblock line="60">
+      <docblock line="72">
         <description>función que busca el valor minimo dentro de un array de enteros recibido.</description>
         <long-description></long-description>
-        <tag name="package" line="60" description="Default"/>
-        <tag name="example" line="60" description="Recorreremos el Array comprobando cual de los numeros que lo componen es el mayor.&#10;Teniendo en cuenta el signo del numero.&#10;max([3,4,6,1,65,-3,6,10]): devolvera -3"/>
-        <tag name="example" line="60" description="Si todos fueran de signo negativo se tendra en cuenta el mayo de ellos.&#10;max([-3,-14,-7-23]): devolvera -3"/>
-        <tag name="param" line="60" description="&lt;p&gt;es donde recibimos el array&lt;/p&gt;" type="string" variable="$array">
+        <tag name="package" line="72" description="Default"/>
+        <tag name="example" line="72" description="Recorreremos el Array comprobando cual de los numeros que lo componen es el mayor.&#10;Teniendo en cuenta el signo del numero.&#10;max([3,4,6,1,65,-3,6,10]): devolvera -3"/>
+        <tag name="example" line="72" description="Si todos fueran de signo negativo se tendra en cuenta el mayo de ellos.&#10;max([-3,-14,-7-23]): devolvera -3"/>
+        <tag name="param" line="72" description="&lt;p&gt;es donde recibimos el array&lt;/p&gt;" type="string" variable="$array">
           <type>string</type>
         </tag>
-        <tag name="return" line="60" description="devuelve el numero mayor de los valores en el array" type="string">
+        <tag name="return" line="72" description="devuelve el numero mayor de los valores en el array" type="string">
           <type>string</type>
         </tag>
       </docblock>
@@ -53,18 +53,18 @@
         <type>string</type>
       </argument>
     </function>
-    <function namespace="Lib\arrays" line="88" package="Default">
+    <function namespace="Lib\arrays" line="99" package="Default">
       <name>espejoMayor</name>
       <full_name>\Lib\arrays\espejoMayor()</full_name>
-      <docblock line="88">
+      <docblock line="99">
         <description>función que busca el numero total de elemento en un array espejo.</description>
         <long-description></long-description>
-        <tag name="package" line="88" description="Default"/>
-        <tag name="example" line="88" description="Recorreremos el Array comprobando cual de los numeros que lo componen&#10;comprobando y hay una secuenci invertida y o espejo. De existir se contaria el&#10;numero de elementos que compoenen esta secuencia.&#10;&#10;Ejemplo espejo1 ([3,4,6,1,65,-3,6,4,10]): devolvera 2&#10;&#10;&#10;Ejemplo espejo2 ([-3,14,1,14,-23]): devolvera 3"/>
-        <tag name="param" line="88" description="&lt;p&gt;es donde recibimos el array&lt;/p&gt;" type="string" variable="$array">
+        <tag name="package" line="99" description="Default"/>
+        <tag name="example" line="99" description="Recorreremos el Array comprobando cual de los numeros que lo componen&#10;comprobando y hay una secuenci invertida y o espejo. De existir se contaria el&#10;numero de elementos que compoenen esta secuencia.&#10;&#10;Ejemplo espejo1 ([3,4,6,1,65,-3,6,4,10]): devolvera 2&#10;&#10;&#10;Ejemplo espejo2 ([-3,14,1,14,-23]): devolvera 3"/>
+        <tag name="param" line="99" description="&lt;p&gt;es donde recibimos el array&lt;/p&gt;" type="string" variable="$array">
           <type>string</type>
         </tag>
-        <tag name="return" line="88" description="devuelve el numero de valores que conforman la secuencia espejo." type="void">
+        <tag name="return" line="99" description="devuelve el numero de valores que conforman la secuencia espejo." type="void">
           <type>void</type>
         </tag>
       </docblock>
@@ -76,10 +76,9 @@
     </function>
     <markers>
       <todo line="35">Resto documentar.</todo>
-      <todo line="62">Resto documentar.</todo>
-      <todo line="92">Resto documentar.</todo>
+      <todo line="102">Resto documentar.</todo>
     </markers>
-    <source>eJzllc9uEzEQxu+R8g5z4NBWm/9pkKCirVTEpagIegMOjneSuHjtxWtHqRBPxSPwYszYTppVkECAuDSJNpu155tvZn6bPTuvV3W30+0MTk66nfyBRTBSWYNN+n0hgl9ZB5PZ8BOc8bEvhb9YVkLpvrTVi7xNK4mmQbh89eZ6JzbodoyosKmFRLhW8w/COXHfPG8ljQm/fzPwOSDMQyMFoIa10JS1EhtVWSjReMdfEAxEDT6ni+hsAw6lmqvS9rMV3Iiq1pjrya8RvEVpnUOHFcVQhsuoQyXUzs6FKS3IIDQLa9pgQhXF2ZS2cRs1xQDG2ErcW8f5btEo5FhakoEcRfONWhq2q7MM76RSjt5PimkxK0bF7LToTfhs+PH4GW1cW71GJ2B22q6BbL9T4G1JThaBdhj2l+QNLoVXawvUdU8eKLxlgj3GNmmqZ+eA0vZG06L3tDeetHP3Jjl3LZyooPFOmSU8Se2msktrSC01O7cwruUohz44sw0j2YCkC7sepJ5t2xvHy700+zrEC9PgiT8e/VFKfvyFeeEhDgZwe3N1Q6NsPNVmJSlTtTyJtCGbGBJhX/na72KmzKPCbDfqx4lZIm2fNWUOWPsD2n7BWjborU/zR40sGIe6A47+LPHuvzBGivsR97AijWAEDZqnKxUoQxPzqhS0aLfO4Iqcb1TjlWMkpOWWKC6QBHOJe8WltDEnJrD9QwaR64SXd0h1bnOM4BDh6QHE44dnVjt8DJE/wm/EhwMC/wmAa6vKn+FHoVvoUuFmYV1FN5TeK7s95TaLaek1U9xi8i+4TO9zelT/AP4ldzU=</source>
+    <source>eJzllM9uEzEQxu+R8g5z4NBWm/9pkKCirVTEpagIegMOjneSuHjtxeuNUiGeikfgxZixne2uUgkhIYTUKNrdxJ5vvpn5rc/Oy03Z7/V7o5OTfi99YVUbqazBKv6+ELXfWAezxfgLnPF1KIW/WBdC6aG0xau0TSuJpkK4fPPuuhEb9XtGFFiVQiJcq+Un4Zy4r152koaEP38Y+FojLOtKCkANW6EpayF2qrCQo/GOb1AbCBr8TH+isxU4lGqpcjtMVnAnilJjqid9JvAepXUOHRYUQxkugw6VUDq7FCa3IGuhWVjTBlMXQZxNaRu2UVMMYIgtxL11nO8WjUKOpSVZk6NgvlJrw3Z1kuGdVMrRx1k2zxbZJFucZoMZP40/H7+gjVurt+gELE67NZDtDwq8zcnJqqYdhv1FeYNr4dXWAnXdkwcK75hgj6FNmuppHFDawWSeDZ4PprNu7sEs5S6FEwVU3imzhmex3VR2bg2pxWanFoa1FOXQ187sw0i2RtKFpgexZ/v2hvFyL01bh3hhGjzxx6M/ismPvzEvPMTRCG5vrm5olJWn2qwkZaqWJxE3JBNjIuz7f062Mk+K7Iaup0l2RKaNtzItvB9j97cgpeze+jhc1MivQ5hYQxMhinf/BCBSbEfcw4Y0aiNoijw6qUAZGodXuaBFu3cGV+R8pyqvHM9bWn6hFRdIgqnEVnExbciJkVr/kEGkOuH1HVKd+xwTOORzfkDo9OGk6IZPIcBFbE34coDXX6Fra1X+GFsUuicqFm5W1hX0tuhW2d0pjyI9DWpx8S1D2jlRI3Z/fKqe08H4C4KpjAQ=</source>
   </file>
   <file path="strings.php" generated-path="strings.html" hash="615f0104fd93ca1757859f1b85245583" package="Default">
     <docblock line="0">
